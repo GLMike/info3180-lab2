@@ -27,7 +27,7 @@ def about():
     
 @app.route('/profile')
 def profile():
-    return render_template('profile.html', date = format_date_joined(datetime.date(2019, 7, 13)))
+    return render_template('profile.html', date = format_date_joined(datetime.date(2020, 4, 17)))
 
 
 ###
