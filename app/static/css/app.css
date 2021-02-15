@@ -1,3 +1,78 @@
+* {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
 body {
+    margin: 0px;
     padding-top: 5rem;
+}
+
+article {
+    background-color: #1cbd62;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    width: 175px;
+    height: auto;
+    border-radius: 400px;
+    padding-top: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.topprofile h2 {
+    font-size: 36px;
+    color: white;
+    margin: 5px;
+}
+
+.profile p {
+    margin: 5px;
+    font-size: 16px;
+    color: #b5b5b5;
+}
+
+.topprofile p {
+    font-size: 16px;
+    color: white;
+    margin: 5px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 0;
+    margin-top: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.stats h2 {
+    color: black;
+    margin-bottom: 0px;
+}
+
+.statstitle {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.followbtn {
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.followlink {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: green;
+    border-radius: 5px;
 }

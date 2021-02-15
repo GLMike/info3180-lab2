@@ -1,0 +1,37 @@
+{% extends "base.html" %} {% block main %}    
+        <div class = "profile">
+        
+            <div class = "topprofile">
+                <article>
+                    <img src="{{ url_for('static', filename='pfp.png')}}">
+                    <h2> Shane-Michael Thompson </h2>
+                <p> @smthompson </p>
+                <p> Spanish Town, Jamaica </p>
+                <p> {{ date }} </p>
+                </article>
+                
+            </div>
+
+            <p> I am a young, striving graphic designer who is apparently in the wrong major <br>
+                trying to find some semblance of happiness, but "this degree bigger than me." <br>
+                Web dev is my only happy place. SOS, Send help.
+                </p>
+
+            <div class = "stats">
+
+                    <h2> 25 </h2>
+                    <h2> 365 </h2>
+                    <h2> 243 </h2>
+            </div>
+
+            <div class = "stats">
+
+                    <p> Posts </p>
+                    <p> Following </p>
+                    <p> Followers </p>
+            </div>
+
+            <p class = "followbtn"><a href = "#" class="followlink"> Follow </a></p>
+        </div>
+        {% endblock %}
+   
